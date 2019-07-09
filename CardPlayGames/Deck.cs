@@ -23,6 +23,21 @@ namespace CardPlayGames
                 }
             }
         }
+        public Deck(bool isAceHigh) : this()
+        {
+            Card.isAceHigh = isAceHigh;
+        }
+        public Deck(bool useTrumps,Suit trump) : this()
+        {
+            Card.useTrumps = useTrumps;
+            Card.trump = trump;
+        }
+        public Deck(bool isAceHigh,bool useTrumps,Suit trump):this()
+        {
+            Card.isAceHigh = isAceHigh;
+            Card.useTrumps = useTrumps;
+            Card.trump = trump;
+        }
         public Card GetCard(int cardNum)
         {
            if(cardNum>=0&&cardNum <= 51)

@@ -7,7 +7,7 @@ namespace CardPlayGames
 {
     public enum Rank
     {
-        Ace,
+        Ace = 1,
         Deuce,
         Three,
         Four,
