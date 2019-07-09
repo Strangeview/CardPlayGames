@@ -7,16 +7,19 @@ namespace CardPlayGames
 {
     public class Deck
     {
-        private Card[] cards;
+        //private Card[] cards;
+        private Cards cards = new Cards();
 
         public Deck()
         {
-            cards = new Card[52];
+           // cards = new Card[52];
+
             for (int suitVal = 0; suitVal < 4; suitVal++)
             {
                 for (int rankVal = 1; rankVal < 14; rankVal++)
                 {
-                    cards[suitVal * 13 + rankVal - 1] = new Card((Suit)suitVal, (Rank)rankVal);
+                    //cards[suitVal * 13 + rankVal - 1] = new Card((Suit)suitVal, (Rank)rankVal);
+                    cards.Add(new Card((Suit)suitVal, (Rank)rankVal));
                 }
             }
         }
@@ -34,27 +37,32 @@ namespace CardPlayGames
 
         public void Shuffle()
         {
-            Card[] newDeck = new Card[52];
+            //Card[] newDeck = new Card[52];
+            Cards newDeck = new Cards();
             bool[] assigned = new bool[52];
             Random sourceGen = new Random();
             for (int i = 0; i < 52; i++)
             {
-                int destCard = 0;
+                //int destCard = 0;
+                int sourceCard = 0;
                 bool foundCard = false;
                 while (foundCard == false)
                 {
-                    destCard = sourceGen.Next(52);
-                    if (assigned[destCard] == false)
+                    //destCard = sourceGen.Next(52);
+                    sourceCard = sourceGen.Next(52);
+                    if (assigned[sourceCard] == false)
                     {
                         foundCard = true;
                     }
                     //cards[i] = newDeck[destCard];
                 }
-                assigned[destCard] = true;
-                newDeck[destCard] = cards[i];
+                assigned[sourceCard] = true;
+                //newDeck[sourceCard] = cards[i];
                 //cards[i] = newDeck[destCard];
+                newDeck.Add(cards[sourceCard ]);
             }
-            newDeck.CopyTo(cards, 0);
+            // newDeck.CopyTo(cards, 0);
+            newDeck.CopyTo(cards);
         }
     }
 }
