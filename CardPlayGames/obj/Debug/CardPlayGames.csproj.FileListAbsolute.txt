@@ -1,0 +1,6 @@
+E:\GitHub Project\CardPlayGames\CardPlayGames\bin\Debug\CardPlayGames.dll
+E:\GitHub Project\CardPlayGames\CardPlayGames\bin\Debug\CardPlayGames.pdb
+E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.csprojAssemblyReference.cache
+E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.csproj.CoreCompileInputs.cache
+E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.dll
+E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.pdb

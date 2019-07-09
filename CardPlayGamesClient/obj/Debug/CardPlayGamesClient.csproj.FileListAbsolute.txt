@@ -1,0 +1,10 @@
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGamesClient.exe.config
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGamesClient.exe
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGamesClient.pdb
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGames.dll
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGames.pdb
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.csprojAssemblyReference.cache
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.csproj.CoreCompileInputs.cache
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.csproj.CopyComplete
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.exe
+E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.pdb
