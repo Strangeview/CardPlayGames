@@ -4,3 +4,9 @@ E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.csprojAsse
 E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.csproj.CoreCompileInputs.cache
 E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.dll
 E:\GitHub Project\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.pdb
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.csprojAssemblyReference.cache
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.csproj.CoreCompileInputs.cache
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.dll
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGames\obj\Debug\CardPlayGames.pdb
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGames\bin\Debug\CardPlayGames.dll
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGames\bin\Debug\CardPlayGames.pdb

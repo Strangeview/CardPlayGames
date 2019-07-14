@@ -8,3 +8,13 @@ E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClien
 E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.csproj.CopyComplete
 E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.exe
 E:\GitHub Project\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.pdb
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.csprojAssemblyReference.cache
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.csproj.CoreCompileInputs.cache
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.exe
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.pdb
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGamesClient.exe.config
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGamesClient.exe
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGamesClient.pdb
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGames.dll
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\bin\Debug\CardPlayGames.pdb
+D:\SoftwareProjects\GitHubProject\CardPlayGames\CardPlayGamesClient\obj\Debug\CardPlayGamesClient.csproj.CopyComplete

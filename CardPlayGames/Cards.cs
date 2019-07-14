@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace CardPlayGames
 {
-    public class Cards:CollectionBase
+    public class Cards:List<Card>,ICloneable 
     {
-        public void Add(Card newCard) => List.Add(newCard);
-        public void Remove(Card oldCard) => List.Remove(oldCard );
-        public  Card this[int cardIndex] //overload indexer
-        {
-            get
-            {
-                return (Card)List[cardIndex];
-            }
-            set
-            {
-                List[cardIndex] = value;
-            }
-        }
+        //public void Add(Card newCard) => List.Add(newCard);
+       // public void Remove(Card oldCard) => List.Remove(oldCard );
+      //  public  Card this[int cardIndex] //overload indexer
+      //  {
+   //         get
+          //  {
+            //    return (Card)List[cardIndex];
+            //}
+            //set
+            //{
+              //  List[cardIndex] = value;
+            //}
+        //}
         ///<summary>
         ///Utility method for copying card instances into another Cards
         ///instance-used in Deck.Shuffle().This implementation assumes that
@@ -34,6 +34,15 @@ namespace CardPlayGames
                 targetCards[index] = this[index];
             }
         }
-        public bool Contains(Card card) => InnerList.Contains(card);
+       // public bool Contains(Card card) => InnerList.Contains(card);
+       public object Clone()
+        {
+            Cards newCards = new Cards();
+            foreach(Card sourceCard in this)
+            {
+                newCards.Add((Card)sourceCard.Clone());
+            }
+            return newCards;
+        }
     }
 }

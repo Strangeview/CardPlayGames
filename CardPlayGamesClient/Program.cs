@@ -51,6 +51,16 @@ namespace CardPlayGamesClient
             Console.WriteLine($"{card5.ToString ()}>{card4.ToString ()} ? {card5>card4}");
             Console.WriteLine($"{card4.ToString ()}>{card5.ToString ()} ? {card4>card5}");
             Console.WriteLine("**********************************************************************************************************");
+            Deck deck1 = new Deck();
+            try
+            {
+                Card myCard = deck1.GetCard(60);
+            }
+            catch(CardOutOfRangeException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.DeckContents [0]);
+            }
             Console.ReadKey();
         }
     }

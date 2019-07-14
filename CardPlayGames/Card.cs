@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CardPlayGames
 {
-    public class Card
+    public class Card:ICloneable
     {
         public static bool useTrumps = false;
         public static Suit trump = Suit.Club;
@@ -29,6 +29,7 @@ namespace CardPlayGames
         public static bool operator !=(Card card1, Card card2) => !(card1==card2);
         public override bool Equals(object card ) => this == (Card)card;
         public override int GetHashCode() => 13 * (int)suit + (int)rank;
+        public object Clone() => MemberwiseClone();
         public static bool operator >(Card card1,Card card2)
         {
             if (card1.suit == card2.suit)
