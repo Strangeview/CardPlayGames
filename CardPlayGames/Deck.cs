@@ -121,7 +121,7 @@ namespace CardPlayGames
             Deck newDeck = new Deck(cards.Clone() as Cards);
             return newDeck;
         }
-        private void InserAllCards()
+        private void InsertAllCards()
         {
             for(int suitVal = 0; suitVal < 4; suitVal++)
             {

@@ -10,7 +10,7 @@ namespace CardPlayGames
     public enum PlayerState
     {
         Inactive,
-        Action,
+        Active,
         MustDiscard,
         Winner,
         Loser

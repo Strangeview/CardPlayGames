@@ -64,7 +64,7 @@ namespace CardPlayGames
             }
         }
         public bool HasWon => Hand.Count == 7 && Hand.Select(x => x.suit).Distinct().Count() == 1;
-        public Cards getCards() => Hand.Clone() as Cards;
+        public Cards GetCards() => Hand.Clone() as Cards;
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
